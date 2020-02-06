@@ -26,7 +26,7 @@ public class Main {
 
                 for (int z = 0; z < width * p; z++) {
 
-                    if (z == width * p || z == width - 1 * p || m == height*p || m == height - 1 * p {
+                    if (z == width * p || z == width - (1 * p) || m == height*p || m == height - (1 * p)) {
                         System.out.print("*");
                     } else {
                         System.out.print(" ");
