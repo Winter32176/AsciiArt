@@ -12,20 +12,24 @@ public class Main {
         int height = scan.nextInt();
 
 
-        for (int m = 0; m <height; m++) {
-            for (int z = 0; z <width; z++) {
-                System.out.print("*");
+        for (int m = 0; m < height; m++) {
+
+
+            for (int z = 0; z < width; z++) {
+                if (z == 0 || z == width - 1 ||m == 0 || m == height - 1) {
+                    System.out.print("*");
+                }else {
+                    System.out.print(" ");
+                }
 
 
 
             }
+
+
             System.out.println();
+
         }
-
-
-
-
-
 
 
     }
