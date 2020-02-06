@@ -20,6 +20,7 @@ public class Main {
                     System.out.print("*");
                 }else {
                     System.out.print(" ");
+                    
                 }
 
 
