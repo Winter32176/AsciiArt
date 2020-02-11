@@ -12,15 +12,15 @@ public class Main {
         int height = scan.nextInt();
         System.out.println("Enter row:");
         int row = scan.nextInt();
-        System.out.println("Enter colums:");
-        int colums = scan.nextInt();
+        System.out.println("Enter columns:");
+        int columns = scan.nextInt();
 
 
         for (int n = 0; n < row; n++) {
 
 
             for (int m = 0; m < height; m++) {
-                for (int p = 0; p < colums; p++) {
+                for (int p = 0; p < columns; p++) {
                     for (int z = 0; z < width; z++) {
 
 
